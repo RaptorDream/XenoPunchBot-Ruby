@@ -30,7 +30,7 @@ end
 bot.message(with_text: '!can you play shape of you?') do |event|
 event.respond 'No, I don\'t practice EarReape :no_entry: '
 end
-bot.message(with_text: '!funvideos') do |event|
+bot.message(with_text: '!funvideo') do |event|
 event.respond ':ok: Enjoy: https://www.youtube.com/watch?v=hlr0psXBS4U '
 end
 bot.message(with_text: '!credits') do |event|
@@ -38,5 +38,31 @@ event.respond 'License: discordrb dependency using Discord API Developped by R4p
 end
 bot.message(with_text: '!help') do |event|
 event.respond 'Under Construction'
+end
+bot.message(with_text:'!ow bardane') do |event|
+  event.respond ':video_game: https://masteroverwatch.com/profile/pc/eu/Bardane-2848 '
+end
+bot.message(with_text: '!lol minbadton') do |event|
+  event.respond ' :video_game: https://euw.op.gg/summoner/userName=Minbadton '
+end
+bot.message(with_text: '!lol sheepv2') do |event|
+  event.respond ' :video_game: https://euw.op.gg/summoner/userName=SheepV2 '
+end
+bot.message(with_text: '!lol falcondu94') do |event|
+  event.respond ' :video_game: https://euw.op.gg/summoner/userName=Falcondu94 '
+end
+bot.message(with_text: '!lol destructor1219') do |event|
+  event.respond ' :video_game: https://euw.op.gg/summoner/userName=destructor1219 '
+end
+bot.message(with_text: '!yt madeon') do |event|
+  event.respond ' :musical_note: https://www.youtube.com/watch?v=xp0NOjZlNlo '
+end
+bot.message(with_text: '!yt kshmr') do |event
+  event.respond ' :musical_note: https://www.youtube.com/watch?v=ux9vr4xfWj4 '
+end
+bot.message(with_text: '!hi') do |event|
+    event.respond 'Hmmm...'
+    sleep 0.8
+    event.respond 'ntm fdp :thumbsup:
 end
 bot.run
