@@ -1,30 +1,9 @@
-#!/usr/bin/ruby
+/ruby
 #DiscordBotProject
 #Coded in Ruby using DiscordRB Dependency
 require 'discordrb'
-bot = Discordrb::Bot.new token: 'MzE3NzUzNDQyOTI5OTk5ODc0.DAogsQ.YhxmkECIpBw2zhGoi5xpba3sgm0', client_id: 317753442929999874
-bot.message(with_text: '!whois raptordream') do |event|
-  event.respond 'He is Rohit'
-end
-bot.message(with_text: '!whois bardane') do |event|
-event.respond 'He is Théo'
-end
-bot.message(with_text: '!whois sheepv2') do |event|
-event.respond 'He is Philippe'
-end
-bot.message(with_text: '!whois coconpasfort') do |event|
-event.respond 'He is Song Nam'
-end
-bot.message(with_text: '!whois minbadton') do |event|
-event.respond 'He is Guillaume'
-end
-bot.message(with_text: '!whois feedmeforchicken') do |event|
-event.respond 'He is Yannis'
-end
-bot.message(with_text: '!whois falcondu94') do |event|
-event.respond 'He is Hugo'
-end
-bot.message(with_text: '!ITTO') do |event|
+bot = Discordrb::Bot.new token: '[BOT_TOKEN]', client_id: [CLIENT_ID] 
+bot.message(with_text: '!ITTO') do |event|      #IsThisThingOn
 event.respond 'Yes!'
 end
 bot.message(with_text: '!can you play shape of you?') do |event|
@@ -40,7 +19,6 @@ bot.message(with_text: '!help') do |event|
 event.respond 'Hey, I am XenoPunch. Let\'s have a great time here <3'
 event.respond '__**Here is a list of commands you can use**__'
 event.respond "```Markdown
-# !whois <discord_pseudo>             ex: !whois raptordream
 # !lol <lol_pseudo>                   ex: !lol destructor1219
 # !ping
 # !funvideo
