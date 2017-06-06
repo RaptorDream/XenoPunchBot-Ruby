@@ -1,4 +1,3 @@
-/ruby
 #DiscordBotProject
 #Coded in Ruby using DiscordRB Dependency
 require 'discordrb'
