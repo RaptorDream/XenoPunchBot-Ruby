@@ -1,4 +1,4 @@
-"# XenoPunchBot-Ruby-SourceCode-master
+# XenoPunchBot-Ruby-SourceCode-master
 
 Discord Bot coded in RUBY using discordrb https://github.com/meew0/discordrb
 
