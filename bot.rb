@@ -82,8 +82,8 @@ bot.message(with_text: '!hi') do |event|
     sleep 0.8
     event.respond 'ntm fdp :thumbsup: '
 end
-bot.message(with_text: '!joke') do |event|
-    event.respond 'Un X² se promène dans la forêt, lorsqu\'il en ressort, il est devenu X. Que s\'est-il passé?'
+bot.message(with_text: '!joke') do |event|                                 
+    event.respond 'Un X² se promène dans la forêt, lorsqu\'il en ressort, il est devenu X. Que s\'est-il passé?'    #Sorry for the french >;>
     sleep 3.5
     event.respond 'Il a trebuché sur une racine. :clap::skin-tone-1: '
 end
@@ -186,7 +186,7 @@ bot.message(content: 'yo') do |event|
 event.respond ':no_entry: Do not say ``yo`` bitch! :no_entry:'
 end
 bot.message(content: '++') do |event|
-event.respond ' ``++`` ta mère :middle_finger: '
+event.respond ' ``++`` your mom :middle_finger: '
 end
 bot.message(content: '!mix edm') do |event|
 gen_f = rand(0..2)
@@ -208,27 +208,9 @@ elsif gen_g.to_i == 2
 event.respond ' :headphones: Where the music hits harder! https://www.youtube.com/watch?v=Kk5L4KuQZHU '
 end
 end
-bot.message(content: 'bitch') do |event|
-event.respond 'Ok, je vais te raconter comment tu as été formé'
-sleep 1
-event.respond 'J`ai emmené ta mère la pute dans une forêt'
-sleep 1
-event.respond 'Puis, je l\'ai gentiment violé'
-sleep 1
-event.respond 'Voila :stuck_out_tongue: '
-sleep 1
-event.respond '#Enjoy'
-end
-bot.message(content: 'ta mère la pute') do |event|
-event.respond 'Laisse moi me rappeler ce qu\'est devenue la tienne :thinking: '
-sleep 1
-event.respond 'Ah oui, elle est morte fdp :kissing_heart: '
-sleep 1
-event.respond ' #gentillesse'
-end
 bot.message(content: '!shutdown') do |event|
 event.respond 'You can\'t shut me down, I\'m immortal :sunglasses: '
 sleep 1
-event.respond 'Fuck you and shutdown, bye :D '
+event.respond 'Fuck you and shutdown, bye :D '               #Fake Shutdown Processing
 end
 bot.run
